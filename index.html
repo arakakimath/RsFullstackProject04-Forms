@@ -99,14 +99,29 @@
             </div>
           </fieldset>
 
-          <!-- <fieldset>
+          <fieldset class="guardian">
             <legend>Informações do responsável</legend>
 
             <div class="input-wrapper">
               <label for="parentsname">Nome do responsável</label>
-              <input id="parentsname" name="parentsname" type="text" placeholder="Nome do responsável"> 
+              <input id="parentsname" name="parentsname" type="text" placeholder="Nome do responsável">
+              <small>Principal responsável legal e contato de emergência</small> 
             </div>
-          </fieldset> -->
+
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input type="text" id="phone" name="phone" placeholder="(xx) xxxxx-xxxx">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mail"></label>
+              <input type="email" id="mail" name="mail" required>
+              <div class="error">
+                <img src="assets/icons/alert-circle.svg" alt="ícone de alerta vermelho">
+                <span>Insira um e-mail válido</span>
+              </div>
+            </div>
+          </fieldset>
         </form>
       </div>
     </main>
